@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.game">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:requestLegacyExternalStorage="true">
+        <activity android:name=".About" android:label="About"></activity>
+        <activity android:name=".contact" android:label="Contact" />
+        <activity
+            android:name=".LevelEight"
+            android:label="Stage 8" />
+        <activity
+            android:name=".Profile"
+            android:label="Profile" />
+        <activity
+            android:name=".MainActivity"
+            android:label="Sign Up" />
+        <activity
+            android:name=".LevelSeven"
+            android:label="Stage 7" />
+        <activity
+            android:name=".LevelSix"
+            android:label="Stage 6" />
+        <activity
+            android:name=".LevelOne"
+            android:label="Stage 1" />
+        <activity
+            android:name=".LevelFiveNext"
+            android:label="Stage 5" />
+        <activity
+            android:name=".LevelFive"
+            android:label="Stage 5" />
+        <activity
+            android:name=".LevelFourNext"
+            android:label="Stage 4" />
+        <activity
+            android:name=".LevelFour"
+            android:label="Stage 4" />
+        <activity
+            android:name=".LevelThree"
+            android:label="Stage 3" />
+        <activity
+            android:name=".LevelTwo"
+            android:label="Stage 2" />
+        <activity
+            android:name=".CustomLevel"
+            android:label="Custom Test" />
+        <activity
+            android:name=".LevelSelection"
+            android:label="AMYPAD creations"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Launch">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".newActivity"
+            android:label="Sign In" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

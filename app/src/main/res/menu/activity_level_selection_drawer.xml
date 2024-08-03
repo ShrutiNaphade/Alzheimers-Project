@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/menu_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_level1"
+            android:icon="@drawable/level"
+            android:title="Level 1" />
+        <item
+            android:id="@+id/nav_level2"
+            android:icon="@drawable/level"
+            android:title="Level 2" />
+        <item
+            android:id="@+id/nav_level3"
+            android:icon="@drawable/level"
+            android:title="Level 3" />
+        <item
+            android:id="@+id/nav_level4"
+            android:icon="@drawable/level"
+            android:title="Level 4" />
+        <item
+            android:id="@+id/nav_level5"
+            android:icon="@drawable/level"
+            android:title="Level 5" />
+        <item
+            android:id="@+id/nav_level6"
+            android:icon="@drawable/level"
+            android:title="Level 6" />
+        <item
+            android:id="@+id/nav_level7"
+            android:icon="@drawable/level"
+            android:title="Level 7" />
+        <item
+            android:id="@+id/nav_level8"
+            android:icon="@drawable/level"
+            android:title="Level 8" />
+        <item
+            android:id="@+id/nav_customlevel"
+            android:icon="@drawable/menu_custom"
+            android:title="Custom Level" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/menu_profile"
+                android:title="Profile" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/menu_about"
+                android:title="About" />
+            <item
+                android:id="@+id/nav_contactus"
+                android:icon="@drawable/menu_contactus"
+                android:title="Contact Us" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/menu_feedback"
+                android:title="Feedback" />
+        </menu>
+    </item>
+
+    <item android:title="Exit">
+        <menu>
+            <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+        </menu>
+    </item>
+</menu>

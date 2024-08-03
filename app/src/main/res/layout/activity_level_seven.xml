@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LevelSeven"
+    android:background="@drawable/level7bg">
+
+    <ImageView
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/menu_home" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:onClick="navigation"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.827"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <AbsoluteLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
+
+
+            <ImageButton
+                android:id="@+id/place1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="136dp"
+                android:layout_marginTop="36dp"
+                android:layout_marginRight="59dp"
+                android:layout_marginBottom="475dp"
+                android:layout_x="44dp"
+                android:layout_y="618dp"
+                android:cropToPadding="true"
+                android:onClick="answerCheck"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/place1" />
+
+            <TextView
+                android:id="@+id/que3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="42dp"
+                android:layout_y="582dp"
+                android:text="Listen and select appropriate place"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <ImageButton
+                android:id="@+id/place3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="136dp"
+                android:layout_marginTop="36dp"
+                android:layout_marginRight="59dp"
+                android:layout_marginBottom="475dp"
+                android:layout_x="44dp"
+                android:layout_y="723dp"
+                android:cropToPadding="true"
+                android:onClick="answerCheck"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/place3" />
+
+            <ImageButton
+                android:id="@+id/place4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="136dp"
+                android:layout_marginTop="36dp"
+                android:layout_marginRight="59dp"
+                android:layout_marginBottom="475dp"
+                android:layout_x="162dp"
+                android:layout_y="723dp"
+                android:cropToPadding="true"
+                android:onClick="answerCheck"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/place4" />
+
+            <ImageButton
+                android:id="@+id/place2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="136dp"
+                android:layout_marginTop="36dp"
+                android:layout_marginRight="59dp"
+                android:layout_marginBottom="475dp"
+                android:layout_x="162dp"
+                android:layout_y="618dp"
+                android:cropToPadding="true"
+                android:onClick="answerCheck"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/place2" />
+
+            <ImageButton
+                android:id="@+id/fru1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="136dp"
+                android:layout_marginTop="36dp"
+                android:layout_marginRight="59dp"
+                android:layout_marginBottom="475dp"
+                android:layout_x="41dp"
+                android:layout_y="101dp"
+                android:cropToPadding="true"
+                android:onClick="answerCheck"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/f1" />
+
+            <ImageButton
+                android:id="@+id/fru2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="136dp"
+                android:layout_marginTop="36dp"
+                android:layout_marginRight="59dp"
+                android:layout_marginBottom="475dp"
+                android:layout_x="159dp"
+                android:layout_y="101dp"
+                android:cropToPadding="true"
+                android:onClick="answerCheck"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/f2" />
+
+            <ImageButton
+                android:id="@+id/fru3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="136dp"
+                android:layout_marginTop="36dp"
+                android:layout_marginRight="59dp"
+                android:layout_marginBottom="475dp"
+                android:layout_x="41dp"
+                android:layout_y="206dp"
+                android:cropToPadding="true"
+                android:onClick="answerCheck"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/f3" />
+
+            <ImageButton
+                android:id="@+id/fru4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="136dp"
+                android:layout_marginTop="36dp"
+                android:layout_marginRight="59dp"
+                android:layout_marginBottom="475dp"
+                android:layout_x="159dp"
+                android:layout_y="206dp"
+                android:cropToPadding="true"
+                android:onClick="answerCheck"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/f4" />
+
+            <TextView
+                android:id="@+id/que1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="36dp"
+                android:layout_y="59dp"
+                android:text="Listen and select appropriate fruit"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/que2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="39dp"
+                android:layout_y="328dp"
+                android:text="Listen and select appropriate person"
+                android:textSize="18sp" />
+
+            <ImageButton
+                android:id="@+id/fruitrec"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_x="313dp"
+                android:layout_y="50dp"
+                android:onClick="playRec"
+                app:srcCompat="@drawable/playbtn" />
+
+            <ImageButton
+                android:id="@+id/personrec"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_x="332dp"
+                android:layout_y="312dp"
+                android:onClick="playRec"
+                app:srcCompat="@drawable/playbtn" />
+
+            <ImageButton
+                android:id="@+id/placerec"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_x="325dp"
+                android:layout_y="571dp"
+                android:onClick="playRec"
+                app:srcCompat="@drawable/playbtn" />
+
+            <ImageButton
+                android:id="@+id/profrec"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_x="285dp"
+                android:layout_y="825dp"
+                android:onClick="playRec"
+                app:srcCompat="@drawable/playbtn" />
+
+            <ImageButton
+                android:id="@+id/per4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="136dp"
+                android:layout_marginTop="36dp"
+                android:layout_marginRight="59dp"
+                android:layout_marginBottom="475dp"
+                android:layout_x="159dp"
+                android:layout_y="469dp"
+                android:cropToPadding="true"
+                android:onClick="answerCheck"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/per4" />
+
+            <ImageButton
+                android:id="@+id/per2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="136dp"
+                android:layout_marginTop="36dp"
+                android:layout_marginRight="59dp"
+                android:layout_marginBottom="475dp"
+                android:layout_x="159dp"
+                android:layout_y="364dp"
+                android:cropToPadding="true"
+                android:onClick="answerCheck"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/per2" />
+
+            <ImageButton
+                android:id="@+id/per3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="136dp"
+                android:layout_marginTop="36dp"
+                android:layout_marginRight="59dp"
+                android:layout_marginBottom="475dp"
+                android:layout_x="41dp"
+                android:layout_y="469dp"
+                android:cropToPadding="true"
+                android:onClick="answerCheck"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/per3" />
+
+            <ImageButton
+                android:id="@+id/per1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="136dp"
+                android:layout_marginTop="36dp"
+                android:layout_marginRight="59dp"
+                android:layout_marginBottom="475dp"
+                android:layout_x="41dp"
+                android:layout_y="364dp"
+                android:cropToPadding="true"
+                android:onClick="answerCheck"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/per1" />
+
+            <TextView
+                android:id="@+id/que4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="44dp"
+                android:layout_y="840dp"
+                android:text="Listen and select appropriate"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <ImageButton
+                android:id="@+id/prof1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="136dp"
+                android:layout_marginTop="36dp"
+                android:layout_marginRight="59dp"
+                android:layout_marginBottom="475dp"
+                android:layout_x="44dp"
+                android:layout_y="880dp"
+                android:cropToPadding="true"
+                android:onClick="answerCheck"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/prof1" />
+
+            <ImageButton
+                android:id="@+id/prof2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="136dp"
+                android:layout_marginTop="36dp"
+                android:layout_marginRight="59dp"
+                android:layout_marginBottom="475dp"
+                android:layout_x="165dp"
+                android:layout_y="880dp"
+                android:cropToPadding="true"
+                android:onClick="answerCheck"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/prof2" />
+
+            <ImageButton
+                android:id="@+id/prof4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="136dp"
+                android:layout_marginTop="36dp"
+                android:layout_marginRight="59dp"
+                android:layout_marginBottom="475dp"
+                android:layout_x="165dp"
+                android:layout_y="985dp"
+                android:cropToPadding="true"
+                android:onClick="answerCheck"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/prof4" />
+
+            <ImageButton
+                android:id="@+id/prof3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="136dp"
+                android:layout_marginTop="36dp"
+                android:layout_marginRight="59dp"
+                android:layout_marginBottom="475dp"
+                android:layout_x="47dp"
+                android:layout_y="985dp"
+                android:cropToPadding="true"
+                android:onClick="answerCheck"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/prof3" />
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:layout_x="120dp"
+                android:layout_y="1100dp"
+                android:text="SUBMIT" />
+
+            <ImageView
+                android:id="@+id/next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="368dp"
+                android:layout_marginLeft="368dp"
+                android:layout_x="356dp"
+                android:layout_y="0dp"
+                android:onClick="navigation"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/next" />
+
+        </AbsoluteLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

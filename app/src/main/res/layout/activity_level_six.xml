@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context=".LevelSix">
+
+    <ImageView
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:onClick="navigation"
+        app:srcCompat="@drawable/next" />
+
+    <ImageView
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="navigation"
+        app:srcCompat="@drawable/menu_home" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/set_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:text="1 - Find the biggest one"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/colorAccent"
+                app:fontFamily="@font/aladin" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="210dp"
+                android:layout_gravity="center"
+                android:src="@drawable/biggest"></ImageView>
+
+            <RadioGroup
+                android:id="@+id/rg1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textSize="15dp">
+
+                <RadioButton
+                    android:id="@+id/r1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Apple"
+                    android:textSize="15dp"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/r2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Watermelon"
+                    android:textSize="15dp"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/r3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Banana"
+                    android:textSize="15dp"></RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="\n2 - Sequence of fruits ?"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                app:fontFamily="@font/aladin" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/sequence"></ImageView>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="15dp">
+
+                <RadioButton
+                    android:id="@+id/r11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Banana-Watermelon-Applee"
+                    android:textSize="15dp"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/r21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Apple-Banana-Watermelon"
+                    android:textSize="15dp"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/r31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Watermelon-banana-apple"
+                    android:textSize="15dp"></RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="\n3 - What color is formed after mixing red and yellow"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                app:fontFamily="@font/aladin"></TextView>
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="210dp"
+                android:layout_gravity="center"
+                android:src="@drawable/colors"></ImageView>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="15dp">
+
+                <RadioButton
+                    android:id="@+id/r12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Blue"
+                    android:textSize="15dp"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/r22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Purple"
+                    android:textSize="15dp"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/r32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Orange"
+                    android:textSize="15dp"></RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="\n4 - How to remove the virus in your hand"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                app:fontFamily="@font/aladin"></TextView>
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="210dp"
+                android:layout_gravity="center"
+                android:src="@drawable/virus"></ImageView>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <RadioButton
+                    android:id="@+id/r13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sanitizer"
+                    android:textSize="15dp"></RadioButton>
+
+                <RadioButton
+
+                    android:id="@+id/r23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fire"
+                    android:textSize="15dp"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/r33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tissue"
+                    android:textSize="15dp"></RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="\n5 - Wake up the owl"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                app:fontFamily="@font/aladin"></TextView>
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="210dp"
+                android:layout_gravity="center"
+                android:src="@drawable/owl"></ImageView>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="15dp">
+
+                <RadioButton
+                    android:id="@+id/r14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Move tree"
+                    android:textSize="15dp"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/r24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Move owl"
+                    android:textSize="15dp"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/r34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Move sun out of the screen"
+                    android:textSize="15dp"></RadioButton>
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/process"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="10dp"
+                android:text="Submit"
+                android:textSize="15dp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
+

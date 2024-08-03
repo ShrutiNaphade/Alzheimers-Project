@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".LevelTwo"
+android:background="@drawable/level6bg">
+
+    <ScrollView
+        android:layout_width="408dp"
+        android:layout_height="739dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <AbsoluteLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:layout_x="54dp"
+                android:layout_y="71dp"
+                android:fontFamily="@font/amita_bold"
+                android:gravity="center"
+                android:text="If its 3/4/2020 Today,\nSelect the date"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/amita" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:layout_x="57dp"
+                android:layout_y="342dp"
+                android:fontFamily="@font/amita_bold"
+                android:gravity="center"
+                android:text="Its Quarter past 1 in the afternoon,                      Select the time"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/amita" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="163dp"
+                android:layout_y="528dp"
+                android:background="@android:color/holo_blue_dark"
+                android:text="CHECK"
+                android:textSize="12sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="2dp"
+                android:layout_y="0dp"
+                android:onClick="navigation"
+                app:srcCompat="@drawable/homewhite" />
+
+            <ImageView
+                android:id="@+id/next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="356dp"
+                android:layout_y="0dp"
+                android:onClick="navigation"
+                app:srcCompat="@drawable/whitenext" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="1dp"
+                android:layout_y="36dp"
+                app:srcCompat="@drawable/line" />
+
+            <Button
+                android:id="@+id/selectdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="145dp"
+                android:layout_y="149dp"
+                android:background="@color/design_default_color_primary"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="SELECT DATE"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/set_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="120dp"
+                android:layout_y="222dp"
+                android:textColor="@android:color/holo_orange_light" />
+
+            <Button
+                android:id="@+id/selecttime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="145dp"
+                android:layout_y="416dp"
+                android:background="@color/design_default_color_primary"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Select Time"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/set_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="130dp"
+                android:layout_y="483dp"
+                android:textColor="@android:color/holo_orange_light" />
+
+
+        </AbsoluteLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

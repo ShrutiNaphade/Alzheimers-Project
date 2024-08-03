@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">एमीप्याड </string>
+    <string name="title_activity_level_selection">LevelSelection</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">सेटिंग्स </string>
+    <string name="menu_home">होम </string>
+    <string name="menu_gallery">गैलरी </string>
+    <string name="menu_slideshow">स्लाइड शो </string>
+    <string name="menu_tools">टूल्स </string>
+    <string name="menu_share">शेयर </string>
+    <string name="menu_send">भेजे </string>
+
+    <string name="entry_email">
+ईमेल</string>
+    <string name="entry_pswd">
+पासवर्ड</string>
+    <string name="entry_sign_up">
+साइन अप करें</string>
+    <string name="entry_alrady_have">
+क्या आपके पास खाता मौजूद है?साइन इन करो</string>
+    <string name="entry_head">
+एमीपैड</string>
+    <string name="entry_head_below">द लीजन द्वारा पहल</string>
+</resources>
